@@ -32,3 +32,8 @@ les utilisateurs.
 #### 9. Lancez les tests. Que remarquez-vous ?
 
 #### 10.Commit + push avec le message 'Ajouter un mauvais test'. Que remarquez-vous ?
+
+Lors du push au niveau du repo Github il n'y a pas d'erreur. On en déduit donc que les erreurs liées au tests ne sont 
+pas pris en compte.
+
+#### 13. Allez sur votre repo Github . Que remarquez-vous ?
