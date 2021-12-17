@@ -30,3 +30,5 @@ les utilisateurs.
 ![img.png](img.png)
 
 #### 9. Lancez les tests. Que remarquez-vous ?
+
+#### 10.Commit + push avec le message 'Ajouter un mauvais test'. Que remarquez-vous ?
