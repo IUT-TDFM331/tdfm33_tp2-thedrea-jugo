@@ -43,5 +43,7 @@ pas pris en compte.
 
 #### 13. Allez sur votre repo Github . Que remarquez-vous ?
 
+La compilation des tests est maintenant prise en compte. Il y a donc l'erreur du test décommenté qui est affichée
 
+![img_2.png](img_2.png)
 
