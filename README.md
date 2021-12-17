@@ -29,4 +29,6 @@ les utilisateurs.
 
 ![img.png](img.png)
 
+On remarque que le fait d'avoir ajouter le maven.yml permet de compiler automatiquement sur github lors d'un push ou
+commit. De ce fait, github nous indique qu'il y a une erreur à ce niveau là car celui-ci compile à chaques fois
 #### 9. Lancez les tests. Que remarquez-vous ?
