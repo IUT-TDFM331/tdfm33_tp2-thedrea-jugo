@@ -59,3 +59,8 @@ jobs: # list des jobs à effectuer
           attachments: attachments.zip,git.diff,./dist/static/*.js
           # Optional priority: 'high', 'normal' (default) or 'low'
           priority: low
+      - name: Send to Slack
+        id: slack
+        uses: slackapi/slack-github-action@v1.16.0
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.WEBHOOK}}
