@@ -47,8 +47,31 @@ jobs: # list des jobs à effectuer
           attachments: attachments.zip,git.diff,./dist/static/*.js
           # Optional priority: 'high', 'normal' (default) or 'low'
           priority: low
-      - name: Send to Slack
-        id: slack
-        uses: slackapi/slack-github-action@v1.16.0
-        env:
-          SLACK_WEBHOOK_URL: ${{ secrets.WEBHOOK}}
+      - name: Slack notification
+          uses: tiloio/slack-webhook-action@v1.0.1
+          with:
+            slack_web_hook_url: ${{ secrets.WEBHOOK }}
+            slack_json: '{
+                                     "username": "{{GITHUB_ACTOR}}",
+                                     "text": "{{GITHUB_ACTOR}} made some notification",
+                                     "icon_url": "{{CUSTOM_AUTHOR_PICTURE}}",
+                                     "channel": "your_channel",
+                                     "blocks": [
+                                         {
+                                             "type": "section",
+                                             "text": {
+                                                 "type": "mrkdwn",
+                                                 "text": "someone pushed something.\n_{{CUSTOM_COMMIT_MSG}}_"
+                                             }
+                                         },
+                                         {
+                                             "type": "context",
+                                             "elements": [
+                                                 {
+                                                     "type": "mrkdwn",
+                                                     "text": ":speech_balloon: commit <{{CUSTOM_COMMIT_URL}}|{{CUSTOM_SHORT_GITHUB_SHA}}>"
+                                                 }
+                                             ]
+                                         }
+                                     ]
+                                 }'
