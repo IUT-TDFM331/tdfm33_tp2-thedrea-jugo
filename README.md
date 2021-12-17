@@ -15,17 +15,18 @@ C'est donc cela qui prends du temps...
 
 ##3. Intégration continue
 ###A. S'assurer que le code de l'application ne comporte pas d'erreurs
-#### Qu'avez-vous remarqué ?
+#### 2. Relancer les tests à nouveau.Qu'avez-vous remarqué ?
 
 Le fait de mettre une methode en dehors de la classe (public class{}) provoque une erreur dans les tests
 
-#### Que remarquez-vous ?
+#### 4. Demandez aux autres membres du groupe de récupérer les derniers changements ?  Que remarquez-vous ?
 
 Nous remarquons que la même erreur est présente chez tous
 les utilisateurs.
 
 ##B. Mise en place de l'intégration continue
-#### Que remarquez-vous ?
+#### 6. Allez sur votre repo Github. Que remarquez-vous ?
 
 ![img.png](img.png)
 
+#### 9. Lancez les tests. Que remarquez-vous ?
