@@ -17,7 +17,7 @@ C'est donc cela qui prends du temps...
 ###A. S'assurer que le code de l'application ne comporte pas d'erreurs
 #### 2. Relancer les tests à nouveau.Qu'avez-vous remarqué ?
 
-Le fait de mettre une methode en dehors de la classe (public class{}) provoque une erreur dans les tests
+Le fait de mettre une methode en dehors de la classe (public class{}) provoque une erreur dans les tests.
 
 #### 4. Demandez aux autres membres du groupe de récupérer les derniers changements ?  Que remarquez-vous ?
 
@@ -30,7 +30,7 @@ les utilisateurs.
 ![img.png](img.png)
 
 On remarque que le fait d'avoir ajouter le maven.yml permet de compiler automatiquement sur github lors d'un push ou
-commit. De ce fait, github nous indique qu'il y a une erreur à ce niveau là car celui-ci compile à chaques fois
+commit. De ce fait, github nous indique qu'il y a une erreur à ce niveau là car celui-ci compile à chaques fois.
 #### 9. Lancez les tests. Que remarquez-vous ?
 
 Le test décommenté provoque l'erreur suivante (renvoi false mais attend true):
@@ -45,7 +45,7 @@ pas pris en compte.
 
 #### 13. Allez sur votre repo Github . Que remarquez-vous ?
 
-La compilation des tests est maintenant prise en compte. Il y a donc l'erreur du test décommenté qui est affichée
+La compilation des tests est maintenant prise en compte. Il y a donc l'erreur du test décommenté qui est affichée.
 
 ![img_2.png](img_2.png)
 
