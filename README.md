@@ -32,3 +32,18 @@ les utilisateurs.
 On remarque que le fait d'avoir ajouter le maven.yml permet de compiler automatiquement sur github lors d'un push ou
 commit. De ce fait, github nous indique qu'il y a une erreur à ce niveau là car celui-ci compile à chaques fois
 #### 9. Lancez les tests. Que remarquez-vous ?
+
+Le test décommenté provoque l'erreur suivante (renvoi false mais attend true):
+
+![img_1.png](img_1.png)
+
+
+#### 10.Commit + push avec le message 'Ajouter un mauvais test'. Que remarquez-vous ?
+
+Lors du push au niveau du repo Github il n'y a pas d'erreur. On en déduit donc que les erreurs liées au tests ne sont 
+pas pris en compte.
+
+#### 13. Allez sur votre repo Github . Que remarquez-vous ?
+
+
+
