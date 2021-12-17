@@ -17,3 +17,5 @@ C'est donc cela qui prends du temps...
 
 Nous remarquons que la même erreur est présente chez tous
 les utilisateurs.
+
+## Que remarquez-vous ?

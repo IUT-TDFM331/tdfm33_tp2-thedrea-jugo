@@ -1,9 +1,9 @@
 name: Build and test app
         on:
         push:
-        branches: [ master ] # action effectuée quand on push sur master
+                branches: [ master ] # action effectuée quand on push sur master
         pull_request:
-        branches: [ master ] # action effectuée quand on fait une PR vers master
+                branches: [ master ] # action effectuée quand on fait une PR vers master
 
         jobs: # list des jobs à effectuer
         build:
