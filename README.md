@@ -26,3 +26,6 @@ les utilisateurs.
 
 ##B. Mise en place de l'intégration continue
 #### Que remarquez-vous ?
+
+![img.png](img.png)
+
