@@ -14,6 +14,5 @@ C'est donc cela qui prends du temps...
 ## Qu'avez-vous remarqué ? 
 
 ## Que remarquez-vous ?
-
 Nous remarquons que la même erreur est présente chez tous
 les utilisateurs.
