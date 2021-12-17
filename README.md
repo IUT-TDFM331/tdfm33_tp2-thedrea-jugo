@@ -29,4 +29,12 @@ les utilisateurs.
 
 ![img.png](img.png)
 
+
+
+
 #### 9. Lancez les tests. Que remarquez-vous ?
+
+Le test décommenté provoque l'erreur suivante (renvoi false mais attend true): 
+
+![img_1.png](img_1.png)
+
