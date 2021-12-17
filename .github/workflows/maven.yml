@@ -32,7 +32,7 @@ jobs: # list des jobs à effectuer
           # Optional (recommended) mail server password:
           password: ${{secrets.PASSWORD}}
           # Required mail subject:
-          subject: Github Actions job result
+          subject: Github Actions job results
           # Required recipients' addresses:
           to: julien.didier@etu.unice.fr
           # Required sender full name (address can be skipped):
